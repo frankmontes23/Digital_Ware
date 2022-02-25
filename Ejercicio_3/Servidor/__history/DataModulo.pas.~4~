@@ -1,0 +1,53 @@
+unit DataModulo;
+
+{$WARN SYMBOL_PLATFORM OFF}
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, ComServ, ComObj, VCLCom, DataBkr,
+  DBClient, Proyecto_DCOM_TLB, StdVcl, Data.DBXFirebird, Data.FMTBcd,
+  Datasnap.Provider, Data.DB, Data.SqlExpr;
+
+type
+  TServerDCOM = class(TRemoteDataModule, IServerDCOM)
+    Conectar: TSQLConnection;
+    Qclientes: TSQLQuery;
+    DSP_clientes: TDataSetProvider;
+    QProductos: TSQLQuery;
+    dsp_productos: TDataSetProvider;
+    QCabezaFactura: TSQLQuery;
+    dsp_CabezaFactura: TDataSetProvider;
+    QDetalleFactura: TSQLQuery;
+    DSPDetalleFactura: TDataSetProvider;
+  private
+    { Private declarations }
+  protected
+    class procedure UpdateRegistry(Register: Boolean; const ClassID, ProgID: string); override;
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.DFM}
+
+class procedure TServerDCOM.UpdateRegistry(Register: Boolean; const ClassID, ProgID: string);
+begin
+  if Register then
+  begin
+    inherited UpdateRegistry(Register, ClassID, ProgID);
+    EnableSocketTransport(ClassID);
+    EnableWebTransport(ClassID);
+  end else
+  begin
+    DisableSocketTransport(ClassID);
+    DisableWebTransport(ClassID);
+    inherited UpdateRegistry(Register, ClassID, ProgID);
+  end;
+end;
+
+initialization
+  TComponentFactory.Create(ComServer, TServerDCOM,
+    Class_ServerDCOM, ciMultiInstance, tmApartment);
+end.

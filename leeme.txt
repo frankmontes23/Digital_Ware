@@ -1,0 +1,12 @@
+dcomcnfg : configurar el servicio
+"proyecto.exe" /regserver
+
+ruta de la base de datos
+Hecha en Firebird
+
+C:\Delphi KACTUS\Ejercicio_3\Datos\VENTAS.FDB
+
+usuario : sysdba	
+password : masterkey
+
+

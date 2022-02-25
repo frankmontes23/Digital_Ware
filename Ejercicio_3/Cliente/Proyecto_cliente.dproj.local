@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/30 19:43:47.000.294,=C:\DelphiProjects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/09/13 18:47:35.000.052,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:17:52.000.670,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:18:52.000.376,C:\Delphi KACTUS\Ejercicio_3\Cliente\CL_Principal.pas=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:18:52.000.376,C:\Delphi KACTUS\Ejercicio_3\Cliente\CL_Principal.dfm=C:\DelphiProjects\Unit12.dfm</Transaction>
+    <Transaction>2022/02/24 17:51:03.000.372,C:\Delphi KACTUS\Ejercicio_3\Cliente\Proyecto_cliente.dproj=C:\DelphiProjects\Project11.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

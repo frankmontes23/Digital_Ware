@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/30 19:43:47.000.294,=C:\DelphiProjects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/09/13 18:47:35.000.052,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 16:59:19.000.328,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:00:25.000.340,C:\Delphi KACTUS\Ejercicio_3\Servidor\UPrincipal.dfm=C:\DelphiProjects\Unit12.dfm</Transaction>
+    <Transaction>2022/02/24 17:00:25.000.340,C:\Delphi KACTUS\Ejercicio_3\Servidor\UPrincipal.pas=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:00:59.000.371,=C:\DelphiProjects\Project11.ridl</Transaction>
+    <Transaction>2022/02/24 17:00:59.000.387,=C:\DelphiProjects\Project11_TLB.pas</Transaction>
+    <Transaction>2022/02/24 17:00:59.000.544,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:01:48.000.639,C:\Delphi KACTUS\Ejercicio_3\Servidor\DataModulo.pas=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 17:01:48.000.639,C:\Delphi KACTUS\Ejercicio_3\Servidor\DataModulo.dfm=C:\DelphiProjects\Unit12.dfm</Transaction>
+    <Transaction>2022/02/24 17:07:01.000.389,C:\Delphi KACTUS\Ejercicio_3\Project11_TLB.pas=C:\DelphiProjects\Project11_TLB.pas</Transaction>
+    <Transaction>2022/02/24 17:07:01.000.404,C:\Delphi KACTUS\Ejercicio_3\Proyecto_DCOM_TLB.pas=C:\Delphi KACTUS\Ejercicio_3\Project11_TLB.pas</Transaction>
+    <Transaction>2022/02/24 17:07:01.000.309,C:\Delphi KACTUS\Ejercicio_3\Proyecto_DCOM.ridl=C:\DelphiProjects\Project11.ridl</Transaction>
+    <Transaction>2022/02/24 17:07:25.000.936,C:\Delphi KACTUS\Ejercicio_3\Servidor\Proyecto_DCOM_TLB.pas=C:\Delphi KACTUS\Ejercicio_3\Proyecto_DCOM_TLB.pas</Transaction>
+    <Transaction>2022/02/24 17:07:48.000.108,C:\Delphi KACTUS\Ejercicio_3\Proyecto.dproj=C:\DelphiProjects\Project11.dproj</Transaction>
+    <Transaction>2022/02/25 10:02:17.000.695,=C:\Delphi KACTUS\Ejercicio_3\Servidor\DataModulo.pas</Transaction>
+    <Transaction>2022/02/25 10:02:26.000.398,=C:\Delphi KACTUS\Ejercicio_3\Servidor\UPrincipal.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Servidor"/>
+    <File Path="Servidor\Proyecto_DCOM_TLB.pas"/>
+    <File Path="Proyecto_DCOM.ridl"/>
+    <File Path="DataModulo.pas"/>
+    <File Path="DataModulo.dfm"/>
+    <File Path="UPrincipal.pas"/>
+    <File Path="UPrincipal.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

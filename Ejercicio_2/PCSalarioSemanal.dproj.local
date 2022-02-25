@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/30 19:43:47.000.294,=C:\DelphiProjects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/09/13 18:47:35.000.052,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 07:33:53.000.815,=C:\DelphiProjects\Unit12.pas</Transaction>
+    <Transaction>2022/02/24 07:47:55.000.138,C:\DelphiProjects\Unit12.pas=C:\Delphi KACTUS\Ejercicio_2\CSalarioSemanal.pas</Transaction>
+    <Transaction>2022/02/24 07:47:55.000.138,C:\DelphiProjects\Unit12.dfm=C:\Delphi KACTUS\Ejercicio_2\CSalarioSemanal.dfm</Transaction>
+    <Transaction>2022/02/24 07:48:13.000.716,C:\DelphiProjects\Project11.dproj=C:\Delphi KACTUS\Ejercicio_2\PCSalarioSemanal.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

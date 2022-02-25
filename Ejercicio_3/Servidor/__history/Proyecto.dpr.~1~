@@ -1,0 +1,18 @@
+program Proyecto;
+
+uses
+  Vcl.Forms,
+  UPrincipal in 'Servidor\UPrincipal.pas' {Fppal},
+  Proyecto_DCOM_TLB in 'Servidor\Proyecto_DCOM_TLB.pas',
+  DataModulo in 'Servidor\DataModulo.pas' {ServerDCOM: TRemoteDataModule} {ServerDCOM: CoClass};
+
+{$R *.TLB}
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFppal, Fppal);
+  Application.Run;
+end.

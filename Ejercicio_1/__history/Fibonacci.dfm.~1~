@@ -1,0 +1,39 @@
+object Form12: TForm12
+  Left = 0
+  Top = 0
+  Caption = 'Form12'
+  ClientHeight = 268
+  ClientWidth = 438
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Button1: TButton
+    Left = 56
+    Top = 216
+    Width = 121
+    Height = 25
+    Caption = 'Ejecutar'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Lista: TListBox
+    Left = 264
+    Top = 56
+    Width = 121
+    Height = 185
+    TabOrder = 1
+  end
+  object nitem: TEdit
+    Left = 56
+    Top = 56
+    Width = 121
+    Height = 24
+    TabOrder = 2
+  end
+end
